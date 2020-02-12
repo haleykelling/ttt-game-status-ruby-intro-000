@@ -61,6 +61,6 @@ end
 
 def winner(board)
   won?(board)
-  puts board[won?(board)[0]]
+  puts "#{board[won?(board)[0]]}"
   require "pry"; binding.pry
 end
