@@ -46,6 +46,6 @@ def draw?(board)
     return true
   else
     return false
-require "pry";binding.pry
+require "pry"; binding.pry
   end
 end
