@@ -35,7 +35,7 @@ def full?(board)
     elsif index == "O"
       true
     else
-      false
+      return false
     end
   end
 end
