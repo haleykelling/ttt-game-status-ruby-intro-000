@@ -61,5 +61,5 @@ end
 
 def winner(board)
   won?(board)
-  puts win_combination[0]
+  puts won?(board)[0]
 end
