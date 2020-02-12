@@ -23,9 +23,6 @@ def won?(board)
       false
     end
   end
-  if false
-    puts false
-  end
 end
 
 def full?(board)
