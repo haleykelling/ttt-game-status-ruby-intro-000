@@ -42,8 +42,7 @@ def full?(board)
 end
 
 def draw?(board)
-  require "pry"; binding.pry
-  if full?(board) == true && won?(board) == false
+  if full?(board) == true && won?(board) == nil
     return true
   else
     return false
