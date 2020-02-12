@@ -60,6 +60,5 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
-  puts "#{board[won?(board)[0]]}"
+  return "#{board[won?(board)[0]]}"
 end
