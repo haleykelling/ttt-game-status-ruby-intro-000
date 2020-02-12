@@ -60,6 +60,9 @@ def over?(board)
 end
 
 def winner(board)
-  return board[won?(board)[0]]
-  require "pry"; binding.pry
+  if won?(board) != nil
+    return board[won?(board)[0]]
+  else
+    return nil
+  end
 end
