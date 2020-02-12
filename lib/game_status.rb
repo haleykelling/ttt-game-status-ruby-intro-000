@@ -50,8 +50,7 @@ def draw?(board)
 end
 
 def over?(board)
-require "pry"; binding.pry
-  if won?(board) != falsey || draw?(board) == true || full?(board) == true
+  if won?(board) != win_combination || draw?(board) == true || full?(board) == true
     return true
   else
     return false
