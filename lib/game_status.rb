@@ -35,10 +35,9 @@ def full?(board)
     elsif index == "O"
       true
     else
-      return false
+      false
     end
   end
-  return true
 end
 
 def draw?(board)
